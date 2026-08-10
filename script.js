@@ -1,6 +1,6 @@
 // Placeholder photos (temporary — swap "image" for your own photo link per piece when ready).
 const works = [
-  { title:"Restless Sunset", price:"[Price]", image:"https://images.unsplash.com/photo-1601925165391-e5d6552a4e20?fm=jpg&q=80&w=1200&auto=format&fit=crop" },
+  { title:"Restless Sunset", price:"[Price]", image:"https://raw.githubusercontent.com/tjfarhad/fatemeh-karimi-Portfolio/refs/heads/main/Restless%20Sunset.jpg" },
   { title:"Blue Silence",    price:"[Price]", image:"https://images.unsplash.com/photo-1597773150796-e5c14ebecbf5?fm=jpg&q=80&w=1200&auto=format&fit=crop" },
   { title:"Soil and Root",   price:"[Price]", image:"https://images.unsplash.com/photo-1553949345-eb786bb3f7ba?fm=jpg&q=80&w=1200&auto=format&fit=crop" },
   { title:"Quiet Flame",     price:"[Price]", image:"https://images.unsplash.com/photo-1561835476-95863b52c53f?fm=jpg&q=80&w=1200&auto=format&fit=crop" },
