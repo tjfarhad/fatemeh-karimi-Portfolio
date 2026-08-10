@@ -1,6 +1,6 @@
 // Placeholder photos (temporary — swap "image" for your own photo link per piece when ready).
 const works = [
-  { title:"Art Deco", price:"[Price: 12,000,000 Toman]", image:"https://raw.githubusercontent.com/tjfarhad/fatemeh-karimi-Portfolio/refs/heads/main/images/1.jpg" },
+  { title:"Art Deco", price:"[Price: 12,000,000 Toman]", image:"https://raw.githubusercontent.com/tjfarhad/fatemeh-karimi-Portfolio/refs/heads/main/images/2.jpg" },
   { title:"Still Life", price:"[Price: 4.000.000 Toman]", image:"https://raw.githubusercontent.com/tjfarhad/fatemeh-karimi-Portfolio/refs/heads/main/images/1.jpg" },
   { title:"Restless Sunset", price:"[Price]", image:"https://raw.githubusercontent.com/tjfarhad/fatemeh-karimi-Portfolio/refs/heads/main/Restless%20Sunset.jpg" },
   { title:"Restless Sunset", price:"[Price]", image:"https://raw.githubusercontent.com/tjfarhad/fatemeh-karimi-Portfolio/refs/heads/main/Restless%20Sunset.jpg" },
