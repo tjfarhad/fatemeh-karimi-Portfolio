@@ -1,15 +1,21 @@
-// Placeholder artwork data — swap "swatch" for a real image URL per piece when ready.
+// Placeholder photos (temporary — swap "image" for your own photo link per piece when ready).
 const works = [
-  { title:"Restless Sunset", price:"[Price]", image:"https://raw.githubusercontent.com/tjfarhad/fatemeh-karimi-Portfolio/refs/heads/main/Restless%20Sunset.jpg" },
-  { title:"Blue Silence",    price:"[Price]", image:"https://raw.githubusercontent.com/tjfarhad/fatemeh-karimi-Portfolio/refs/heads/main/Restless%20Sunset.jpg" },
-  { title:"Soil and Root",   price:"[Price]", swatch:"linear-gradient(135deg,#5c7a4e,#c7b23a)" },
-  { title:"Quiet Flame",     price:"[Price]", swatch:"linear-gradient(135deg,#c77a2e,#6e2e5e)" },
-  { title:"Night and Mirror",price:"[Price]", swatch:"linear-gradient(135deg,#4a3e81,#2f6b81)" },
-  { title:"Field of Memory", price:"[Price]", swatch:"linear-gradient(135deg,#8fa43e,#b14a3a)" },
-  { title:"Winter Light",    price:"[Price]", swatch:"linear-gradient(135deg,#9fb0c2,#e7e4da)" },
-  { title:"Ochre Study",     price:"[Price]", swatch:"linear-gradient(135deg,#d6a24a,#7a5230)" },
-  { title:"Coastal Blue",    price:"[Price]", swatch:"linear-gradient(135deg,#274a6e,#7fb0b8)" }
+  { title:"Restless Sunset", price:"[Price]", image:"https://images.unsplash.com/photo-1601925165391-e5d6552a4e20?fm=jpg&q=80&w=1200&auto=format&fit=crop" },
+  { title:"Blue Silence",    price:"[Price]", image:"https://images.unsplash.com/photo-1597773150796-e5c14ebecbf5?fm=jpg&q=80&w=1200&auto=format&fit=crop" },
+  { title:"Soil and Root",   price:"[Price]", image:"https://images.unsplash.com/photo-1553949345-eb786bb3f7ba?fm=jpg&q=80&w=1200&auto=format&fit=crop" },
+  { title:"Quiet Flame",     price:"[Price]", image:"https://images.unsplash.com/photo-1561835476-95863b52c53f?fm=jpg&q=80&w=1200&auto=format&fit=crop" },
+  { title:"Night and Mirror",price:"[Price]", image:"https://images.unsplash.com/photo-1604871000636-074fa5117945?fm=jpg&q=80&w=1200&auto=format&fit=crop" },
+  { title:"Field of Memory", price:"[Price]", image:"https://images.unsplash.com/photo-1553356009-50faee7aa84c?fm=jpg&q=80&w=1200&auto=format&fit=crop" },
+  { title:"Winter Light",    price:"[Price]", image:"https://images.unsplash.com/photo-1628432436663-9e588806592a?fm=jpg&q=80&w=1200&auto=format&fit=crop" },
+  { title:"Ochre Study",     price:"[Price]", image:"https://images.unsplash.com/photo-1608501902687-d3beed3ca1f3?fm=jpg&q=80&w=1200&auto=format&fit=crop" },
+  { title:"Coastal Blue",    price:"[Price]", image:"https://images.unsplash.com/photo-1555448259-8da74c6c6b01?fm=jpg&q=80&w=1200&auto=format&fit=crop" }
 ];
+
+function pieceMedia(w){
+  return w.image
+    ? `<img src="${w.image}" alt="${w.title}">`
+    : `<div class="swatch" style="background:${w.swatch}"></div>`;
+}
 
 const accents = ['#9B2C3F', '#2F4C81', '#D98F2B', '#5C7A4E'];
 const grid = document.getElementById('grid');
@@ -20,7 +26,7 @@ works.forEach((w, i) => {
   tile.style.setProperty('--tilt', tilt + 'deg');
   tile.style.setProperty('--accent', accents[i % accents.length]);
   tile.innerHTML = `
-    <div class="tile-img"><div class="swatch" style="background:${w.swatch}"></div></div>
+    <div class="tile-img">${pieceMedia(w)}</div>
     <div class="tile-cap">
       <div class="tile-title">${w.title}</div>
       <div class="tile-price">${w.price}</div>
@@ -38,7 +44,9 @@ let current = 0;
 
 function renderLightbox(){
   const w = works[current];
-  lbImgWrap.innerHTML = `<div class="swatch lb-swatch" style="background:${w.swatch}"></div>`;
+  lbImgWrap.innerHTML = w.image
+    ? `<img src="${w.image}" alt="${w.title}">`
+    : `<div class="swatch lb-swatch" style="background:${w.swatch}"></div>`;
   lbTitle.textContent = w.title;
   lbPrice.textContent = w.price;
   lbCounter.textContent = (current + 1) + ' / ' + works.length;
