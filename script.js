@@ -1,7 +1,7 @@
 // Placeholder artwork data — swap "swatch" for a real image URL per piece when ready.
 const works = [
   { title:"Restless Sunset", price:"[Price]", image:"https://raw.githubusercontent.com/tjfarhad/fatemeh-karimi-Portfolio/refs/heads/main/Restless%20Sunset.jpg" },
-  { title:"Blue Silence",    price:"[Price]", swatch:"linear-gradient(135deg,#2f4c81,#3f7a6e)" },
+  { title:"Blue Silence",    price:"[Price]", image:"https://raw.githubusercontent.com/tjfarhad/fatemeh-karimi-Portfolio/refs/heads/main/Restless%20Sunset.jpg" },
   { title:"Soil and Root",   price:"[Price]", swatch:"linear-gradient(135deg,#5c7a4e,#c7b23a)" },
   { title:"Quiet Flame",     price:"[Price]", swatch:"linear-gradient(135deg,#c77a2e,#6e2e5e)" },
   { title:"Night and Mirror",price:"[Price]", swatch:"linear-gradient(135deg,#4a3e81,#2f6b81)" },
