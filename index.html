@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Fatemeh Karimi — Portfolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <nav class="wrap">
+    <div class="brand">Fatemeh Karimi</div>
+    <div class="nav-links">
+      <a href="index.html" class="active">Portfolio</a>
+      <a href="about.html">About Me</a>
+      <a href="contact.html">Contact</a>
+    </div>
+  </nav>
+</header>
+
+<section class="gallery" id="portfolio">
+  <div class="wrap page-head">
+    <h1>Portfolio</h1>
+    <p>Original paintings and studies — oil, acrylic and watercolor. Click any piece to view it larger.</p>
+  </div>
+
+  <div class="wrap">
+    <div class="grid" id="grid"></div>
+  </div>
+</section>
+
+<div class="lightbox" id="lightbox">
+  <div class="lb-stage">
+    <button class="lb-close" id="lbClose" aria-label="Close">&times;</button>
+    <div class="lb-counter" id="lbCounter"></div>
+    <button class="lb-nav lb-prev" id="lbPrev" aria-label="Previous">&#8249;</button>
+    <div class="lb-img-wrap" id="lbImgWrap"></div>
+    <button class="lb-nav lb-next" id="lbNext" aria-label="Next">&#8250;</button>
+    <div class="lb-caption">
+      <div class="t" id="lbTitle"></div>
+      <div class="p" id="lbPrice"></div>
+    </div>
+  </div>
+</div>
+
+<footer>
+  <div class="wrap footer-row">
+    <div>© 2026 Fatemeh Karimi. All rights reserved.</div>
+    <div>Developed and Designed by <a href="https://instagram.com/farhadtajbakhsh" target="_blank" rel="noopener">Farhad Tajbakhsh</a></div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
