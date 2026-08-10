@@ -11,10 +11,14 @@ const works = [
   { title:"Coastal Blue",    price:"[Price]", swatch:"linear-gradient(135deg,#274a6e,#7fb0b8)" }
 ];
 
+const accents = ['#9B2C3F', '#2F4C81', '#D98F2B', '#5C7A4E'];
 const grid = document.getElementById('grid');
 works.forEach((w, i) => {
   const tile = document.createElement('div');
   tile.className = 'tile';
+  const tilt = (i % 2 === 0 ? 1 : -1) * (1 + (i % 3));
+  tile.style.setProperty('--tilt', tilt + 'deg');
+  tile.style.setProperty('--accent', accents[i % accents.length]);
   tile.innerHTML = `
     <div class="tile-img"><div class="swatch" style="background:${w.swatch}"></div></div>
     <div class="tile-cap">
