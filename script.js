@@ -14,6 +14,15 @@ const works = [
   { title:"Winter Light",     price:"[Price]", image:"/images/06.jpeg" },
   { title:"Ochre Study",      price:"[Price]", image:"/images/07.jpeg" },
   { title:"Coastal Blue",     price:"[Price]", image:"/images/08.jpeg" },
+  { title:"Blue Silence",     price:"[Price]", image:"/images/09.jpeg" },
+  { title:"Soil and Root",    price:"[Price]", image:"/images/10.jpeg" },
+  { title:"Quiet Flame",      price:"[Price]", image:"/images/11.jpeg" },
+  { title:"Night and Mirror", price:"[Price]", image:"/images/12.jpeg" },
+  { title:"Field of Memory",  price:"[Price]", image:"/images/13.jpeg" },
+  { title:"Winter Light",     price:"[Price]", image:"/images/14.jpeg" },
+  { title:"Ochre Study",      price:"[Price]", image:"/images/15.jpeg" },
+  { title:"Coastal Blue",     price:"[Price]", image:"/images/16.jpeg" },
+  { title:"Coastal Blue",     price:"[Price]", image:"/images/17.jpeg" },
 ];
 
 function pieceMedia(w){
