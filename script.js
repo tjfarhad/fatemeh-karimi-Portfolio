@@ -7,7 +7,6 @@ const works = [
   { title:"Still Life",       price:"4,000,000 Toman",  image:"/images/1.jpg" },
   { title:"Restless Sunset",  price:"[Price]",          image:"/images/01.jpeg" },
   { title:"Blue Silence",     price:"[Price]", image:"/images/01.jpeg" },
-  { title:"Soil and Root",    price:"[Price]", image:"/images/02.jpeg" },
   { title:"Quiet Flame",      price:"[Price]", image:"/images/03.jpeg" },
   { title:"Night and Mirror", price:"[Price]", image:"/images/04.jpeg" },
   { title:"Field of Memory",  price:"[Price]", image:"/images/05.jpeg" },
