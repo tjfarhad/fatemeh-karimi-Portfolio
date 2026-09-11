@@ -6,7 +6,7 @@ const works = [
   { title:"Art Deco",         price:"12,000,000 Toman", image:"/images/2.jpg" },
   { title:"Still Life",       price:"4,000,000 Toman",  image:"/images/1.jpg" },
   { title:"Restless Sunset",  price:"[Price]",          image:"/images/01.jpg" },
-  { title:"Blue Silence",     price:"[Price]", image:"/images/restless-sunset.jpg" },
+  { title:"Blue Silence",     price:"[Price]", image:"/images/restless-sunset.jpeg" },
   { title:"Soil and Root",    price:"[Price]", image:"https://images.unsplash.com/photo-1553949345-eb786bb3f7ba?fm=jpg&q=80&w=1200&auto=format&fit=crop" },
   { title:"Quiet Flame",      price:"[Price]", image:"https://images.unsplash.com/photo-1561835476-95863b52c53f?fm=jpg&q=80&w=1200&auto=format&fit=crop" },
   { title:"Night and Mirror", price:"[Price]", image:"https://images.unsplash.com/photo-1604871000636-074fa5117945?fm=jpg&q=80&w=1200&auto=format&fit=crop" },
