@@ -8,7 +8,6 @@ const works = [
   { title:"Restless Sunset",  price:"[Price]",          image:"/images/01.jpeg" },
   { title:"Blue Silence",     price:"[Price]", image:"/images/01.jpeg" },
   { title:"Quiet Flame",      price:"[Price]", image:"/images/03.jpeg" },
-  { title:"Night and Mirror", price:"[Price]", image:"/images/04.jpeg" },
   { title:"Field of Memory",  price:"[Price]", image:"/images/05.jpeg" },
   { title:"Winter Light",     price:"[Price]", image:"/images/06.jpeg" },
   { title:"Ochre Study",      price:"[Price]", image:"/images/07.jpeg" },
